@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>An Earthworm Realtime Trace Viewer</title>
+  <link rel="stylesheet" type="text/css" href="/tmp/main.css">
+</head>
+<body>
+  <div class='container'> 
+    <div class='header'>
+      <h1 class='center'> PyEarthworm Plot V3 </h1>
+    </div>
+    <div class='page-main'>
+      <div class='sidebar'>
+        <h2>Menu: </h2>
+        </hr>
+        <p>The following link contains the list of channels this provides as
+        part of an API that allows a client to query and link to the
+        /graph_feed/&ltchannel&gt for a webcam feed of the channel graph:</p>
+        </br>
+        <a href="/menu"> Link to the menu </a>
+      </div>
+      <div class='content-main'>
+        <div style="width: 100%; overflow: hidden;">
+          <div style="width: 50%; float: left;">
+            <table class="tg">
+              <tr>
+              <th class="tg-0lax">Sta/Cha/Net/Loc</th>
+              <th class="tg-0lax">Real Time Streaming Link</th>
+              </tr>
+              {% for key in results %}
+              <tr>
+              <td class="tg-0lax">{{ key }}</td>
+              <td class="tg-0lax"><a href="/SCNL/{{ key }}">Click me!</a></td>
+              </tr>
+              {% endfor %}
+            </table>
+          </div>
+          <div style="margin-left: 50%;">
+            <table class="tg">
+              <tr>
+              <th class="tg-0lax">Station</th>
+              <th class="tg-0lax">Real Time Streaming Link</th>
+              </tr>
+              {% for key in results2 %}
+              <tr>
+              <td class="tg-0lax">{{ key }}</td>
+              <td class="tg-0lax"><a href="/Station/{{ key }}">Click me!</a></td>
+              </tr>
+              {% endfor %}
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='footer'>
+      <h3>&copy; Boritech Solution LLC 2019</h3>
+    </div>
+  </div>
+</body>
+</html>

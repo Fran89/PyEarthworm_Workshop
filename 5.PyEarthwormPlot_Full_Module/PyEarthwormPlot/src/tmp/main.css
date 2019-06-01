@@ -1,0 +1,114 @@
+/* Global Rewrite */
+* 
+{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+html, body 
+{
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Page Layout */
+.header 
+{
+  padding:20px;
+  min-height: 80px;
+  background-color: #B2D6FF;
+}
+
+.container {  
+  position: relative;
+  overflow: auto;
+  height:100%;
+  padding-bottom: 30px;
+  background-color: #FFFFFF;
+}
+
+.page 
+{
+  overflow: hidden; 
+  width: 1520px;  
+  margin: 0 auto;
+}
+
+.page-main
+{
+  overflow: hidden; 
+  width: 900px;   
+  margin: 0 auto;
+}
+
+.sidebar 
+{
+  float: left;
+  padding:10px;
+  width: 300px; 
+  height: 100%; 
+  overflow:hidden;
+}
+
+.content {
+  float: left;
+  padding:10px;
+  width: 1500px;
+  height: 100%; 
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.content-main {
+  float: left;
+  padding:10px;
+  width: 600px;
+  height: 100%; 
+  padding-bottom: 30px;
+}
+
+.footer {
+  padding: 5px;
+  height: 30px; 
+  width: 100%;
+  bottom: 0px;
+  position:fixed;
+  background-color: #B2D6FF;
+}
+
+/* Table style */
+.tg  {
+  border-collapse:collapse;
+  border-spacing:0; 
+  margin-left: 10%;
+}
+
+.tg td{
+  font-family:Arial, 
+  sans-serif;font-size:14px;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+}
+
+.tg th{
+  font-family:Arial, 
+  sans-serif;font-size:14px;
+  font-weight:normal;
+  padding:10px 5px;
+  border-style:solid;
+  border-width:1px;
+  overflow:hidden;
+  word-break:normal;
+  border-color:black;
+}
+.tg .tg-0lax{
+  text-align:left;
+  vertical-align:top;
+}

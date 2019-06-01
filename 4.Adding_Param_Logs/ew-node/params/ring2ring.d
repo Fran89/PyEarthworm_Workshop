@@ -1,0 +1,9 @@
+[Earthworm]
+RING_ID: 1000
+MOD_ID: 8
+INST_ID: 141
+HB: 30
+
+[Rings]
+RING_IN: 1000
+RING_OUT: 1005
