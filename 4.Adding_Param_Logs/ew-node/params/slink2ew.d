@@ -92,7 +92,7 @@ StateFile     #[filename]        # If this flag is specified (uncommented) a
 
 #Stream  PR_*
 Stream  PR_AOPR
-#Stream  PR_PRSN
+Stream  PR_PRSN
 
 
 #(notes regarding "selectors" from a SeedLink configuration file)
