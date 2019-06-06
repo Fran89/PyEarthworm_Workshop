@@ -59,7 +59,7 @@ logging.getLogger().addHandler(fh)
 logging.getLogger().setLevel(logging.DEBUG)
 
 
-## Use a log for this scope
+## Use a logger for this scope! We'll see how this works in the log file.
 logger = logging.getLogger("ring2ring.py")
 logger.info("Hello from ring2ring.py")
 
