@@ -124,3 +124,4 @@ MsgSuffix "))"
 Descriptor  statmgr.desc
 Descriptor  slink2ew.desc
 Descriptor  startstop.desc
+Descriptor  PyEWPlot.desc

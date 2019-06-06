@@ -1,4 +1,4 @@
-#               Descriptor File for PyEWplot
+#               Descriptor File for the StartStop Program
 #
 #    This file specifies when error messages are to be reported via
 #    email and pager.  All errors are logged to file statmgr.log.
@@ -21,7 +21,7 @@
 #
 #
 modName  PyEWPlot
-modId    MOD_PYEWPLOT
+modId    MOD_PyEWPlot
 instId   ${EW_INST_ID}
 #
 #

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ value }}</title>
+  <link rel="stylesheet" type="text/css" href="/tmp/main.css">
+</head>
+<body>
+  <div class='container'> 
+    <div class='header'>
+      <h1 class='center'>{{ value }}</h1>
+    </div>
+    <div class='page'>
+      <div class='content'>
+        {% if exist %}
+        {% for key in stations %}
+        <div>
+          <h3>Channel: {{ key }} </h3>
+          <img src="{{ url_for('graph_feed', StaStr=key) }}">
+        </div>
+        {% endfor %} 
+        {% else %}    
+          <img src="/tmp/Stop.png">
+        {% endif %}
+      </div>
+    </div>
+    <div class='footer'>
+      <h3>&copy; Boritech Solution LLC 2019</h3>
+    </div>
+  </div>  
+</body>
+</html>

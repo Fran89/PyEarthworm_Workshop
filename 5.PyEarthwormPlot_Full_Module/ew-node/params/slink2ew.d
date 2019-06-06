@@ -91,7 +91,7 @@ StateFile     #[filename]        # If this flag is specified (uncommented) a
 # fields, for example to request all stations from the TA network:
 
 #Stream  PR_*
-Stream  PR_AOPR
+Stream  PR_AOPR   "BH?.D"
 #Stream  PR_PRSN
 
 

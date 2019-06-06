@@ -70,7 +70,7 @@
  Module   MOD_STATMGR           2
  Module   MOD_STATUS            3
  Module   MOD_SLINK2EW          4
- Module   MOD_PyEWTest          8 
+ Module   MOD_PyEWPlot          9 
 
 
 #--------------------------------------------------------------------------
